@@ -6,9 +6,9 @@ export function Footer() {
       <div className="container mx-auto max-w-6xl">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">CodeCraft</h3>
+            <h3 className="text-xl font-bold mb-4">TildaCraft</h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              2025 CodeCraft. Все права защищены.
+              2025 TildaCraft. Все права защищены.
             </p>
           </div>
 
@@ -17,22 +17,27 @@ export function Footer() {
             <ul className="space-y-2">
               <li>
                 <a href="#about" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  О нас
-                </a>
-              </li>
-              <li>
-                <a href="#services" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  Услуги
+                  Главная база
                 </a>
               </li>
               <li>
                 <a href="#portfolio" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  Портфолио
+                  Кейсы
+                </a>
+              </li>
+              <li>
+                <a href="#pricing" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  Заказать прокачку
                 </a>
               </li>
               <li>
                 <a href="#contact" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  Контакты
+                  Связь с разработчиком
+                </a>
+              </li>
+              <li>
+                <a href="#faq" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  FAQ
                 </a>
               </li>
             </ul>

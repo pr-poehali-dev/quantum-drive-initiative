@@ -5,23 +5,23 @@ import { Fragment } from "react"
 const steps = [
   {
     icon: Lightbulb,
-    title: "Концепция и планирование",
+    title: "Обсуждаем задачу",
     description:
-      "Вместе обсуждаем вашу идею, цели и видение сайта. Разрабатываем четкий план, соответствующий вашим пожеланиям, с правильной структурой и функциональностью.",
+      "Созваниваемся, слушаем ваши хотелки, задаём правильные вопросы. Разбираемся, что нужно бизнесу, а не просто 'сделайте красиво'. Составляем бриф и план действий.",
     number: "01",
   },
   {
     icon: PaletteIcon,
-    title: "Разработка и дизайн",
+    title: "Рисуем и собираем",
     description:
-      "Наши разработчики и дизайнеры приступают к созданию сайта. Фокусируемся на стильном дизайне, удобном для пользователей и технически безупречном.",
+      "Дизайним, верстаем, настраиваем — всё на Tilda. Показываем промежуточные результаты, вносим правки на лету. Никаких сюрпризов в финале.",
     number: "02",
   },
   {
     icon: Rocket,
-    title: "Тестирование и запуск",
+    title: "Запускаем и прокачиваем",
     description:
-      "Тщательно тестируем сайт для обеспечения оптимальной производительности. После вашего одобрения запускаем проект и остаемся на связи для поддержки.",
+      "Подключаем домен, проверяем адаптив, настраиваем SEO и аналитику. Жмём кнопку 'опубликовать' и празднуем. А потом остаёмся на связи для поддержки.",
     number: "03",
   },
 ]
@@ -34,13 +34,13 @@ export function ProcessSection() {
       <div className="container mx-auto max-w-7xl relative z-10">
         <div className="text-center mb-16">
           <div className="inline-block mb-4 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-semibold">
-            Наш процесс
+            Как мы работаем
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-balance">
-            От <span className="text-primary">идеи</span> к <span className="text-primary">результату</span>
+            От <span className="text-primary">задачи</span> к <span className="text-primary">запуску</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto text-pretty leading-relaxed">
-            В три простых шага превращаем вашу идею в мощное онлайн-присутствие, приносящее результат.
+            Три простых шага — и у вас готовый сайт на Tilda. Без бюрократии, долгих согласований и нервов.
           </p>
         </div>
 

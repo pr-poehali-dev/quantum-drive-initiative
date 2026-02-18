@@ -4,40 +4,40 @@ import { Button } from "@/components/ui/button"
 
 const projects = [
   {
-    title: "Умный помощник по выборам",
-    category: "AI/ML и веб-разработка",
-    image: "/omgekeerdestemwijzer-banner.png",
+    title: "Лендинг для фитнес-студии",
+    category: "Лендинг под ключ",
+    image: "/placeholder.svg",
     description:
-      "AI-приложение для выборов. Пользователи задают вопросы о позициях партий и получают 100% фактические ответы из официальных программ с использованием RAG-технологии.",
-    url: "https://de-omgekeerde-stemwijzer.onrender.com/",
-    tags: ["Next.js", "AI/ML", "RAG", "TypeScript"],
+      "Мощный одностраничник для фитнес-студии с анимациями, расписанием занятий и онлайн-записью. Конверсия выросла на 40% после запуска.",
+    url: "#",
+    tags: ["Tilda", "Zero-блок", "Анимации", "Адаптив"],
   },
   {
-    title: "Автомойка Tahsin",
-    category: "Веб-дизайн и разработка",
-    image: "/autopoetsbedrijf-tahsin-project.png",
+    title: "Интернет-магазин косметики",
+    category: "E-commerce на Tilda",
+    image: "/placeholder.svg",
     description:
-      "Профессиональный сайт для автомойки с 20-летним опытом. Полная презентация услуг, автомойки и гаража с современным адаптивным дизайном.",
-    url: "https://www.autopoetsbedrijftahsin.nl/",
-    tags: ["React", "Next.js", "Tailwind CSS"],
+      "Полноценный каталог с фильтрами, корзиной и интеграцией оплаты. Минималистичный дизайн, который подчёркивает продукт и не мешает покупать.",
+    url: "#",
+    tags: ["Tilda", "Каталог", "Корзина", "Адаптив"],
   },
   {
-    title: "Кадровое агентство CAN",
-    category: "Веб-разработка",
-    image: "/can-uitzendbureau-project.png",
+    title: "Корпоративный сайт IT-компании",
+    category: "Многостраничный сайт",
+    image: "/placeholder.svg",
     description:
-      "Кадровое агентство с 30-летним опытом в садоводческом секторе. Сайт с обзором услуг и прямыми контактами для работодателей и соискателей.",
-    url: "https://canbv.nl/",
-    tags: ["Next.js", "React", "Tailwind CSS"],
+      "Строгий и технологичный сайт с кастомными Zero-блоками, анимированными графиками и интерактивной картой офисов. Выглядит как на React, а сделан на Tilda.",
+    url: "#",
+    tags: ["Tilda", "Zero-блок", "Многостраничный", "SEO"],
   },
   {
-    title: "Портфолио Murat Sahin",
-    category: "Портфолио-сайт",
-    image: "/murat-sahin-portfolio.png",
+    title: "Лендинг для онлайн-курса",
+    category: "Продающий лендинг",
+    image: "/placeholder.svg",
     description:
-      "Профессиональное портфолио full-stack разработчика. Демонстрация проектов, навыков и опыта с современным минималистичным дизайном и темной темой.",
-    url: "https://murat-sahin-dev.vercel.app/",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS", ".NET Core"],
+      "Длинный продающий лендинг с прогревом, отзывами, таймером и формой оплаты. Продуманная структура, которая ведёт к покупке шаг за шагом.",
+    url: "#",
+    tags: ["Tilda", "Анимации", "Формы", "Адаптив"],
   },
 ]
 
@@ -46,9 +46,9 @@ export function PortfolioSection() {
     <section id="portfolio" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="container mx-auto max-w-7xl">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-balance">Наше портфолио</h2>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-balance">Кейсы</h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto text-pretty leading-relaxed">
-            Ознакомьтесь с подборкой наших последних проектов и узнайте, как мы помогаем бизнесу расти с помощью мощных цифровых решений.
+            Мы это реально сделали. Вот подборка проектов, которыми мы гордимся — каждый собран на Tilda с душой и вниманием к деталям.
           </p>
         </div>
 
@@ -71,7 +71,7 @@ export function PortfolioSection() {
                     className="gap-2"
                     onClick={() => window.open(project.url, "_blank")}
                   >
-                    Открыть проект <ExternalLink className="h-4 w-4" />
+                    Смотреть кейс <ExternalLink className="h-4 w-4" />
                   </Button>
                 </div>
               </div>

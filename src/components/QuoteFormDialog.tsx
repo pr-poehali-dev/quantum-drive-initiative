@@ -52,14 +52,14 @@ export function QuoteFormDialog({ packageName, variant = "default", className, c
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
         <Button variant={variant} className={className}>
-          {children || "Запросить расчет"}
+          {children || "Заказать прокачку"}
         </Button>
       </DialogTrigger>
       <DialogContent className="sm:max-w-[500px] max-h-[90vh] overflow-y-auto">
         <DialogHeader>
-          <DialogTitle>Запросить расчет</DialogTitle>
+          <DialogTitle>Заказать прокачку</DialogTitle>
           <DialogDescription>
-            Заполните форму, и мы свяжемся с вами в ближайшее время для бесплатной консультации.
+            Расскажите немного о себе и проекте — мы свяжемся и обсудим детали. Без душных менеджеров, обещаем.
           </DialogDescription>
         </DialogHeader>
         <form onSubmit={handleSubmit} className="space-y-4 mt-4">
@@ -109,19 +109,20 @@ export function QuoteFormDialog({ packageName, variant = "default", className, c
           </div>
 
           <div className="space-y-2">
-            <Label htmlFor="package">Тариф *</Label>
+            <Label htmlFor="package">Программа *</Label>
             <Select
               value={formData.package}
               onValueChange={(value) => setFormData({ ...formData, package: value })}
             >
               <SelectTrigger id="package">
-                <SelectValue placeholder="Выберите тариф" />
+                <SelectValue placeholder="Выберите программу" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="Базовый">Базовый</SelectItem>
-                <SelectItem value="Про">Про</SelectItem>
-                <SelectItem value="Индивидуальный">Индивидуальный</SelectItem>
-                <SelectItem value="Еще не определился">Еще не определился</SelectItem>
+                <SelectItem value="Базовый минимум">Базовый минимум</SelectItem>
+                <SelectItem value="Крепкий середнячок">Крепкий середнячок</SelectItem>
+                <SelectItem value="Сделай красиво">Сделай красиво</SelectItem>
+                <SelectItem value="С нуля до легенды">С нуля до легенды</SelectItem>
+                <SelectItem value="Ещё не определился">Ещё не определился</SelectItem>
               </SelectContent>
             </Select>
           </div>
